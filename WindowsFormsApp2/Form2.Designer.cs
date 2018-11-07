@@ -77,8 +77,6 @@
             this.label1.Size = new System.Drawing.Size(168, 52);
             this.label1.TabIndex = 0;
             this.label1.Text = "1번 기계";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.ControlLight;
@@ -88,7 +86,6 @@
             this.textBox1.Size = new System.Drawing.Size(195, 35);
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "_ _ _ _";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button3
             // 
@@ -283,7 +280,6 @@
             this.label2.Size = new System.Drawing.Size(75, 12);
             this.label2.TabIndex = 26;
             this.label2.Text = "Schubert 1.2";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label4
             // 
@@ -414,7 +410,6 @@
             this.label14.Size = new System.Drawing.Size(21, 27);
             this.label14.TabIndex = 45;
             this.label14.Text = "t";
-            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // label15
             // 
@@ -425,7 +420,6 @@
             this.label15.Size = new System.Drawing.Size(64, 27);
             this.label15.TabIndex = 46;
             this.label15.Text = "m/h";
-            this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
             // textBox7
             // 
