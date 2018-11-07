@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Inhye.Properties
+namespace schubert.Properties
 {
 
 
