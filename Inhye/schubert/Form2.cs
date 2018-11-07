@@ -73,24 +73,32 @@ namespace schubert
 
         private void button1_Click(object sender, EventArgs e)
         {
-            lblStatusChange.Text = "시작";
-            if (btnManual.Enabled == false)
+            
+            if (lblModeChange.Text == ".")
             {
-                btnUp.Enabled = true;
-                btnDown.Enabled = true;
-                btnRight.Enabled = true;
-                btnLeft.Enabled = true;
+                MessageBox.Show("모드선택");
             }
-            btnSpeedPlus.Enabled = true;
-            btnSpeedMinus.Enabled = true;
-            btnWeightPlus.Enabled = false;
-            btnWeightMinus.Enabled = false;
+            else
+            {
+                lblStatusChange.Text = "시작";
+                if (btnManual.Enabled == false)
+                {
+                    btnUp.Enabled = true;
+                    btnDown.Enabled = true;
+                    btnRight.Enabled = true;
+                    btnLeft.Enabled = true;
+                }
+                btnSpeedPlus.Enabled = true;
+                btnSpeedMinus.Enabled = true;
+                btnWeightPlus.Enabled = false;
+                btnWeightMinus.Enabled = false;
 
-            btnStop.Enabled = true;
-            btnStart.Enabled = false;
+                btnStop.Enabled = true;
+                btnStart.Enabled = false;
 
-            btnManual.Enabled = false;
-            btnAuto.Enabled = false;
+                btnManual.Enabled = false;
+                btnAuto.Enabled = false;
+            }
         }
 
         private void btnAuto_Click(object sender, EventArgs e)
@@ -147,14 +155,9 @@ namespace schubert
             btnStart.Enabled = true;
             btnStop.Enabled = false;
 
-            if (btnManual.Enabled == false)
-            {
-                btnAuto.Enabled = true;
-            }
-            else if (btnAuto.Enabled == false)
-            {
-                btnManual.Enabled = false;
-            }
+            btnAuto.Enabled = true;
+            btnManual.Enabled = true;
+            lblModeChange.Text = ".";
         }
     }
 }

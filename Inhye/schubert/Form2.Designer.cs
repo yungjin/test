@@ -339,9 +339,9 @@
             this.lblModeChange.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lblModeChange.Location = new System.Drawing.Point(123, 315);
             this.lblModeChange.Name = "lblModeChange";
-            this.lblModeChange.Size = new System.Drawing.Size(49, 19);
+            this.lblModeChange.Size = new System.Drawing.Size(89, 19);
             this.lblModeChange.TabIndex = 29;
-            this.lblModeChange.Text = "자동";
+            this.lblModeChange.Text = "자동모드";
             // 
             // Form2
             // 
